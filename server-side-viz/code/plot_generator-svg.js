@@ -48,4 +48,4 @@ const path=g.selectAll('path')
   .attr('fill', (d, i) => pallete2[i])
         
 fs.writeFileSync('./chart.svg', d3n.svgString())
-console.log(d3n.svgString())
+

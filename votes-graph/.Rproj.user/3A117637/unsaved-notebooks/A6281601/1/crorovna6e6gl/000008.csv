@@ -1,0 +1,2 @@
+"0","nodes = unique(c(unique(edges$voter), unique(edges$author)))"
+"0","write.csv(nodes, './nodes.csv')"
